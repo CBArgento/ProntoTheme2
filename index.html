@@ -43,16 +43,18 @@ footer {
     bottom: 0;
     width: 100%;
 }	
-
-.jumbotron-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}	
+	
 
 i {
     text-align: center;
 }	
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 	
 </style>
 </head>
@@ -63,8 +65,8 @@ i {
 
 <!---Jumbotron-->
 
-<div class="jumbotron jumbotron-fluid style="background-image: url(https://images.unsplash.com/photo-1589625130781-a5d83139b525?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80);">
-  <div class="container">
+<div class="jumbotron bg-cover jumbotron-fluid" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://images.unsplash.com/photo-1589625130781-a5d83139b525?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80)">
+    <div class="container">
     <h1 class="display-4">Heading</h1>
     <p class="lead">Paragraph.</p>
   </div>
@@ -92,9 +94,9 @@ i {
     <a class="nav-link" href="sms:801-259-5614">TEXT US</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="fa fa-home"></i> DIRECTIONS</a>
+    <a class="nav-link" href="https://www.google.com/maps/place/La+Razita/@30.2490774,-81.7663913,17z/data=!3m1!4b1!4m5!3m4!1s0x88e5c746e4f33659:0x5d65fd7515f6ab2f!8m2!3d30.2490774!4d-81.7642026" target="_blank"><i class="fa fa-home"></i> DIRECTIONS</a>
   <li class="nav-item">
-    <a class="nav-link" href="https://www.google.com/maps/place/La+Razita/@30.249082,-81.7663913,17z/data=!3m1!4b1!4m5!3m4!1s0x88e5c746e4f33659:0x5d65fd7515f6ab2f!8m2!3d30.2490774!4d-81.7642026" target="_blank">WEBSITE</a>
+    <a class="nav-link" href="mailto:difinile@gmail.com" target="_blank">WEBSITE</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://www.facebook.com/Reyesfastest" target="_blank">SOCIAL</a>
@@ -120,6 +122,7 @@ i {
 </div>
 
 <div class="divider"></div>
+
 
 <!--Content-->
 
